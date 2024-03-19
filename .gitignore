@@ -1,0 +1,3 @@
+// to avoid uploading password and private information when pushing to github
+.env
+/node_modules

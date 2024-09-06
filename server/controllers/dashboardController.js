@@ -41,7 +41,7 @@ exports.dashboard = async (req, res) => {
       current: page,
       pages: Math.ceil(count / perPage)
     });
- 
+ 6
     // Original Code | does 
     // Note.aggregate([
     //   { $sort: { updatedAt: -1 } },
